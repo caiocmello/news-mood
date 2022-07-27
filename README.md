@@ -1,4 +1,4 @@
-# Is Sentiment in the news becoming more negative over time? 
+# Is sentiment in the news becoming more negative over time? 
 
 Description of the project here 
 
