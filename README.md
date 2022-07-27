@@ -2,5 +2,5 @@
 
 Description of the project here 
 
-![](./img/image.png)
+![](./img/image2.png)
 
