@@ -15,11 +15,11 @@ This project compared the sentiment of news articles published by BBC on twitter
 The data collection consisted of the following steps:
 
 1. Getting tweets from @BBCBreaking timeline for specific years (2012,2015,2017,2019 and 2022) using the Twitter API.
-- Packages used: Twarc2.
+- Packages used: `Twarc2`
 2. Filtering the tweets data to get only the url for news articles published by @BBCBreaking.
-- Packages used: Pandas.
+- Packages used: `Pandas`
 3. From the list of urls, using Newspaper3k to scrape the news headlines from the articles' webpages. After getting the list of news headlines, we removed the duplicate results as @BBCBreaking tweeted some articles more than once. 
-- Packages used: Newspaper3k (Beautiful Soup & NLTK), Pandas.
+- Packages used: `Newspaper3k` (`Beautiful Soup` & `NLTK`), `Pandas`
 
 The image below illustrates the data collection pipeline:
 
@@ -50,7 +50,7 @@ The data analysis aimed to answer the following questions:
 
 ### Sentiment Analysis
 
-## Time series
+#### Time series
 
 To gain insight into the changing nature of sentiment in news headlines over time, we first constructed time series graphs for each of our study periods (2017, 2019, and 2022) using the Python package ``Seaborn``.
 
@@ -71,7 +71,7 @@ An unusual dip in negativity scores around November 2017 helps illustrate some o
 *A recommendation on using another sentiment analysis to provide convergent validity goes here!*
 
 
-# Regression analysis
+#### Regression analysis
 
 To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``SciPy`` ...
 
@@ -84,6 +84,7 @@ To provide a statistical answer to the question of whether overall sentiment has
 
 ### Topic Modelling
 
+### References
 
 
 
