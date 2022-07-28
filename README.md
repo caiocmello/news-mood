@@ -1,4 +1,4 @@
-# Is sentiment in the news becoming more negative over time? 
+# Are news becoming more negative over time? 
 
 A recent [report](https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2022/dnr-executive-summary) published by the Reuters Institute for the Study of Journalism analysing news consumption across different countries unveiled the increase in news avoidance. Among the reasons, one of the most common answers by interviewees was that ‘news negatively affect their mood’: 
 
