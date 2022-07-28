@@ -56,7 +56,7 @@ To gain insight into the changing nature of sentiment in news headlines over tim
 
 Plotted on the graph of each time period is a 30-day rolling mean of sentiment scores returned by ``VADER`` via the ``NLTK`` package: Positive Polarity, Negative Polarity, and Overall Polarity (or compound score).
 
-Each individual word in VADER’s lexicon is measured on a scale from -4 to +4, with -4 representing the highest valence (or intensity) score of negative sentiment and +4 representing the highest valence score of positive sentiment.
+Each individual word in ``VADER``’s lexicon is measured on a scale from -4 to +4, with -4 representing the highest valence (or intensity) score of negative sentiment and +4 representing the highest valence score of positive sentiment.
 
 Overall polarity of a given document (in this case title of a news article) is measured using ``VADER``’s compound value: a normalised, weighted sum of the valence scores of each word in its lexicon. The polarity value returned is an overall score in the range [-1,1]. _pos_, _neu_, and _neg_ scores represent ratios for the proportions of text in each news headline that fall in each category. For each document the pos, neu, and neg scores sum to 1.
 
