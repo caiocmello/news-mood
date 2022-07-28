@@ -21,7 +21,23 @@ The data collection consisted of the following steps:
 3. From the list of urls, using Newspaper3k to scrape the news headlines from the articles' webpages. After getting the list of news headlines, we removed the duplicate results as @BBCBreaking tweeted some articles more than once. 
 - Packages used: Newspaper3k (Beautiful Soup & NLTK), Pandas.
 
+The image below illustrates the data collection pipeline:
+
 ![](./img/collection_pipeline.png)
+
+## Dataset description:
+
+The dataset is in `.csv` format and is organised as follows:
+- Columns:
+  - ID (tweet ID)
+  - created_at (tweet publication's date)
+  - url (url of the news article attached to the tweet)
+  - Titles (news headline)
+- Rows:
+Each row contains a single news article headline. Total number of entries: XX
+
+The image below shows the dataset overview:
+
 
 
 ## Data Analysis
