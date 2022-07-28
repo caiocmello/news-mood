@@ -73,10 +73,15 @@ An unusual dip in negativity scores around November 2017 helps illustrate some o
 
 #### Regression analysis
 
-To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``SciPy`` ...
+To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``statsmodels``. A new column to measure time as an independent variable - day_num - was constructed using the datetime package. This was  regressed against our three key dependent variables - polarity, positivity and negativity - in turn. The results of these three models are shown below.
 
-**More to go here!**
 
+
+![polarity_ols_result](https://user-images.githubusercontent.com/77411190/181587942-3c55e696-3993-4ffb-9c41-46af0f8ba6cc.png)
+![pos_ols_result](https://user-images.githubusercontent.com/77411190/181587992-910ae4c7-defd-4f5f-a8a8-31fb2fc227cb.png)
+![neg_ols_result](https://user-images.githubusercontent.com/77411190/181588166-427df3cc-54e7-45fb-99a4-4136eeddb912.png)
+
+While the coefficients in each model are small, their direction presents interesting results. Surprisingly, the proportion of positive words in headlines is increasing very slightly over time, while the proportion of negative words is decreasing slightly over time. All appear statistically significant.
 
 
 
