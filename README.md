@@ -66,6 +66,9 @@ To provide context, peaks and troughs in these scores over time were investigate
 ![2019 annotated ts graph](https://user-images.githubusercontent.com/77411190/181502417-5677530e-dd12-4af6-8fc3-59d309c9bda3.png)
 ![2022 annotated ts graph](https://user-images.githubusercontent.com/77411190/181502448-200fc7d7-d1fa-473b-9f7e-c030b05226d9.png)
 
+An unusual dip in negativity scores around November 2017 helps illustrate some of the limitations in using dictionary-based sentiment analysis tools. The Paradise Papers tax scandal was undoubtedly a negative story, but generates disproportionately positive scores due to the presence of positive words such as 'paradise', 'wealthy', and 'fundraiser'. The BBC also shared stories on its Breaking News Twitter feed repeatedly, skewing the 30-day rolling mean. With more time, we would recommend applying sentiment analysis to a larger body of text (e.g. the introduction of the web article) to generate a more realistic depiction of overall sentiment.
+
+
 
 ### Emotion Analysis
 
