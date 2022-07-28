@@ -44,8 +44,8 @@ It is interesting to notice how the number of tweets published by @BBCBreaking r
 
 The data analysis aimed to answer the following questions:
 1. Has sentiment in news headlines become more negative over time?
-2.
-3.
+2. What are the yearly changes in sentiments?
+3. What are the most frequent topics and terms for each year?
 ...
 
 ### Sentiment Analysis
@@ -82,7 +82,9 @@ To provide a statistical answer to the question of whether overall sentiment has
 
 ### Emotion Analysis
 
-### Topic Modelling
+### Topic Modeling
+
+For topic modeling we first planned to run the analysis with the BERTopic package of Python, however due to the functional issues, we switched to R. 
 
 ### References
 
