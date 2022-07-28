@@ -91,6 +91,8 @@ While the coefficients in each model are small, their direction presents interes
 
 ### Emotion Analysis
 
+![](./img/emotions.png)
+
 ### Topic Modeling
 
 For topic modeling we first planned to run the analysis with the [BERTopic](https://maartengr.github.io/BERTopic/index.html) package of Python, however due to the functional issues, we switched to R. In R, we benefitted from the [quanteda](https://quanteda.io/) and [STM](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf) (Structural Topic Modeling) packages.
