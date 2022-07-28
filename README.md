@@ -38,9 +38,21 @@ Each row contains a single news article headline. Total number of entries: XX
 
 The image below shows the dataset overview:
 
-
+It is interesting to notice how the number of tweets published by @BBCBreaking reduced over the years. 
 
 ## Data Analysis
+
+The data analysis aimed to answer the folling questions:
+1.
+2.
+3.
+...
+
+### Sentiment Analysis
+
+### Emotion Analysis
+
+### Topic Modelling
 
 
 
