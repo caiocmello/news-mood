@@ -34,7 +34,7 @@ The dataset is in `.csv` format and is organised as follows:
   - url (url of the news article attached to the tweet)
   - Titles (news headline)
 - Rows:
-Each row contains a single news article headline. Total number of entries: XX
+Each row contains a single news article headline. Total number of entries: 7213.
 
 The image below shows the dataset overview:
 
