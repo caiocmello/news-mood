@@ -54,6 +54,8 @@ The data analysis aimed to answer the following questions:
 
 ### Sentiment Analysis
 
+![](./img/sentiment_overtime.png)
+
 #### Time series
 
 To gain insight into the changing nature of sentiment in news headlines over time, we first constructed time series graphs for each of our study periods (2017, 2019, and 2022) using the Python package ``Seaborn``.
