@@ -10,8 +10,9 @@ However, in other countries like Germany, Sweden, Switzerland, Finland and Nethe
 
 This project compared the sentiment of news articles published by BBC on twitter in 2017, 2019 and 2022 to see if there is a variation of sentiment in the language used by news articles over time that could be related to how people feel the effect in their mood.  
 
+## Data Collection
 
-
+![](./img/collection_pipeline.png)
 
 
 
