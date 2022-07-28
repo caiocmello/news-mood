@@ -90,16 +90,20 @@ At the first step, we constructed our corpus seperately for each year. The corpu
 
 Top twenty topics with their top three terms appear as follows in stm:
 
+![](./img/2017_toptopics.jpeg)
+
 We also visualized the most frequent words in each year within the textplot_wordcloud() function of the quanteda package.
 Most frequent 100 words appear as follows:
 
-Required packages:
-require(readtext)
-require(stm)
-require(quanteda)
-require(quanteda.textstats)
-require(quanteda.textplots)
-require(quanteda.corpora)
+![](./img/2017_cloud.jpeg)
+
+Required packages:<br/>
+require(readtext)<br/>
+require(stm)<br/>
+require(quanteda)<br/>
+require(quanteda.textstats)<br/>
+require(quanteda.textplots)<br/>
+require(quanteda.corpora)<br/>
 require(ggplot2)
 
 
