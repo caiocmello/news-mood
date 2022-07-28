@@ -73,11 +73,14 @@ An unusual dip in negativity scores around November 2017 helps illustrate some o
 
 #### Regression analysis
 
-To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``SciPy`` ...
+To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``statsmodels``. Using ``datetime``, we converted the date column in our dataset to a new column: duration. This represented the sole independent variable to be regresses separately against our key dependent variabls: _polarity_, _pos_, and _neg_. The results of these OLS models are shown below.
 
-**More to go here!**
+![polarity_ols_result](https://user-images.githubusercontent.com/77411190/181547196-b5cd7d13-21d0-4ce3-9f90-cc214beb509f.png)
+![pos_ols_result](https://user-images.githubusercontent.com/77411190/181547261-ac0be0be-b6ff-4500-90ef-82f05a6fa768.png)
+![neg_ols_result](https://user-images.githubusercontent.com/77411190/181547429-4b549954-909d-4991-bf4e-613d891d477e.png)
 
 
+Surprisingly, ....
 
 
 ### Emotion Analysis
