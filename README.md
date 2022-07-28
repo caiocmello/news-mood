@@ -38,8 +38,6 @@ Each row contains a single news article headline sorted by date of publication (
 
 The image below shows the dataset overview:
 
-![](./img/dataset_overview.png)
-
 It is interesting to notice how the number of tweets published by @BBCBreaking reduced over the years. 
 
 ## Data Analysis
@@ -48,11 +46,9 @@ The data analysis aimed to answer the following questions:
 1. Has sentiment in news headlines become more negative over time?
 2. What are the yearly changes in sentiments?
 3. What are the most frequent topics and terms for each year?
-...
+4. ?
 
 ### Sentiment Analysis
-
-![](./img/sentiment_overtime.png)
 
 #### Time series
 
@@ -77,21 +73,35 @@ An unusual dip in negativity scores around November 2017 helps illustrate some o
 
 #### Regression analysis
 
-To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``statsmodels``. Using ``datetime``, we converted the date column in our dataset to a new column: duration. This represented the sole independent variable to be regresses separately against our key dependent variabls: _polarity_, _pos_, and _neg_. The results of these OLS models are shown below.
+To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``SciPy`` ...
 
-![polarity_ols_result](https://user-images.githubusercontent.com/77411190/181547196-b5cd7d13-21d0-4ce3-9f90-cc214beb509f.png)
-![pos_ols_result](https://user-images.githubusercontent.com/77411190/181547261-ac0be0be-b6ff-4500-90ef-82f05a6fa768.png)
-![neg_ols_result](https://user-images.githubusercontent.com/77411190/181547429-4b549954-909d-4991-bf4e-613d891d477e.png)
+**More to go here!**
 
 
-Surprisingly, ....
 
 
 ### Emotion Analysis
 
 ### Topic Modeling
 
-For topic modeling we first planned to run the analysis with the BERTopic package of Python, however due to the functional issues, we switched to R. 
+For topic modeling we first planned to run the analysis with the [BERTopic](https://maartengr.github.io/BERTopic/index.html) package of Python, however due to the functional issues, we switched to R. In R, we benefitted from the [quanteda](https://quanteda.io/) and [STM](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf) (Structural Topic Modeling) packages.
+
+At the first step, we constructed our corpus seperately for each year. The corpus has been tokenized and stopwords have been remowed. In case of any duplicates, those rows have been remowed as well. A [document-feature matrix](https://www.rdocumentation.org/packages/quanteda/versions/1.5.2/topics/dfm) (dfm) was created for running stm. 
+
+Top twenty topics with their top three terms appear as follows in stm:
+
+We also visualized the most frequent words in each year within the textplot_wordcloud() function of the quanteda package.
+Most frequent 100 words appear as follows:
+
+Required packages:
+require(readtext)
+require(stm)
+require(quanteda)
+require(quanteda.textstats)
+require(quanteda.textplots)
+require(quanteda.corpora)
+require(ggplot2)
+
 
 ### References
 
