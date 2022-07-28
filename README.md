@@ -105,7 +105,7 @@ Top twenty topics with their top three terms appear as follows in stm:
 
 ![](./img/2017_toptopics.jpeg)
 
-We also visualized the most frequent words in each year within the textplot_wordcloud() function of the quanteda package.
+We also visualized the most frequent words in each year within the ``textplot_wordcloud()`` function of the quanteda package.
 Most frequent 100 words appear as follows:
 
 ![](./img/2017_cloud.jpeg)
