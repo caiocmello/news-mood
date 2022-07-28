@@ -68,6 +68,16 @@ To provide context, peaks and troughs in these scores over time were investigate
 
 An unusual dip in negativity scores around November 2017 helps illustrate some of the limitations in using dictionary-based sentiment analysis tools. The Paradise Papers tax scandal was undoubtedly a negative story, but generates disproportionately positive scores due to the presence of positive words such as 'paradise', 'wealthy', and 'fundraiser'. The BBC also shared stories on its Breaking News Twitter feed repeatedly, skewing the 30-day rolling mean. With more time, we would recommend applying sentiment analysis to a larger body of text (e.g. the introduction of the web article) to generate a more realistic depiction of overall sentiment.
 
+*A recommendation on using another sentiment analysis to provide convergent validity goes here!*
+
+
+# Regression analysis
+
+To provide a statistical answer to the question of whether overall sentiment has changed over time, we turn to OLS regression via ``SciPy`` ...
+
+**More to go here!**
+
+
 
 
 ### Emotion Analysis
