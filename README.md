@@ -38,6 +38,8 @@ Each row contains a single news article headline sorted by date of publication (
 
 The image below shows the dataset overview:
 
+![](./img/dataset_overview.png)
+
 It is interesting to notice how the number of tweets published by @BBCBreaking reduced over the years. 
 
 ## Data Analysis
