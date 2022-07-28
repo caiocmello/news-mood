@@ -12,6 +12,15 @@ This project compared the sentiment of news articles published by BBC on twitter
 
 ## Data Collection
 
+The data collection consisted of the following steps:
+
+1. Getting tweets from @BBCBreaking timeline for specific years (2012,2015,2017,2019 and 2022) using the Twitter API.
+- Packages used: Twarc2.
+2. Filtering the tweets data to get only the url for news articles published by @BBCBreaking.
+- Packages used: Pandas.
+3. From the list of urls, using Newspaper3k to scrape the news headlines from the articles' webpages. After getting the list of news headlines, we removed the duplicate results as @BBCBreaking tweeted some articles more than once. 
+- Packages used: Newspaper3k (Beautiful Soup & NLTK), Pandas.
+
 ![](./img/collection_pipeline.png)
 
 
