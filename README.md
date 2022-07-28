@@ -15,6 +15,9 @@ This project compared the sentiment of news articles published by BBC on twitter
 ![](./img/collection_pipeline.png)
 
 
+## Data Analysis
+
+
 
 
 
