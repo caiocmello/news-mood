@@ -50,7 +50,7 @@ The data analysis aimed to answer the following questions:
 
 ### Sentiment Analysis
 
-### Time series analysis
+## Time series
 
 To gain insight into the changing nature of sentiment in news headlines over time, we first constructed time series graphs for each of our study periods (2017, 2019, and 2022) using the Python package Seaborn.
 
@@ -59,6 +59,13 @@ Plotted on the graph of each time period is a 30-day rolling mean of sentiment s
 Each individual word in VADER’s lexicon is measured on a scale from -4 to +4, with -4 representing the highest valence (or intensity) score of negative sentiment and +4 representing the highest valence score of positive sentiment.
 
 Overall polarity of a given document (in this case title of a news article) is measured using VADER’s compound value: a normalised, weighted sum of the valence scores of each word in its lexicon. The polarity value returned is an overall score in the range [-1,1]. _pos_, _neu_, and _neg_ scores represent ratios for the proportions of text in each news headline that fall in each category. For each document the pos, neu, and neg scores sum to 1.
+
+To provide context, peaks and troughs in these scores over time were investigated manually by interrogating the dataset and finding the corresponding news stories in relevant periods. Graphs were annotated to illustrate the news environment, helping to ensure validity of the sentiment scoring process.
+
+![2017 annotated ts graph](https://user-images.githubusercontent.com/77411190/181502396-36242517-0fd6-4b7f-82f3-c4c94dd34789.png)
+![2019 annotated ts graph](https://user-images.githubusercontent.com/77411190/181502417-5677530e-dd12-4af6-8fc3-59d309c9bda3.png)
+![2022 annotated ts graph](https://user-images.githubusercontent.com/77411190/181502448-200fc7d7-d1fa-473b-9f7e-c030b05226d9.png)
+
 
 ### Emotion Analysis
 
