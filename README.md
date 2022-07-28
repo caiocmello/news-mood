@@ -27,6 +27,8 @@ The image below illustrates the data collection pipeline:
 
 ## Dataset description:
 
+Dataset is available for download [here](https://doi.org/10.5281/zenodo.6927800)
+
 The dataset is in `.csv` format and is organised as follows:
 - Columns:
   - ID (tweet ID)
@@ -37,6 +39,8 @@ The dataset is in `.csv` format and is organised as follows:
 Each row contains a single news article headline sorted by date of publication (created_at). Total number of entries: 7213.
 
 The image below shows the dataset overview:
+
+![](./img/dataset_overview.png)
 
 It is interesting to notice how the number of tweets published by @BBCBreaking reduced over the years. 
 
