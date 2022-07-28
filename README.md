@@ -42,7 +42,7 @@ It is interesting to notice how the number of tweets published by @BBCBreaking r
 
 ## Data Analysis
 
-The data analysis aimed to answer the folling questions:
+The data analysis aimed to answer the following questions:
 1.
 2.
 3.
