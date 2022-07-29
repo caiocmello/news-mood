@@ -54,7 +54,7 @@ The data analysis aimed to answer the following questions:
 
 ### Sentiment Analysis
 
-The first step to analyse the variation of sentiment over the years was applying VADER, a sentiment classifier of `NLTK`, to each news headline. VADER is a lexicon and rule-based algorithm. The result of the sentiment analysis can be visualised in the chart below: 
+The first step to analyse the variation of sentiment over the years was applying `VADER`, a sentiment classifier of `NLTK`, to each news headline. VADER is a lexicon and rule-based algorithm. The result of the sentiment analysis can be visualised in the chart below: 
 
 ![](./img/sentiment_overtime.png)
 
