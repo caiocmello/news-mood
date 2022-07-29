@@ -54,7 +54,14 @@ The data analysis aimed to answer the following questions:
 
 ### Sentiment Analysis
 
+The first step to analyse the variation of sentiment over the years was applying VADER, a sentiment classifier of `NLTK`, to each news headline. VADER is a lexicon and rule-based algorithm. The result of the sentiment analysis can be visualised in the chart below: 
+
 ![](./img/sentiment_overtime.png)
+
+There is a slightly increase in negative sentiments over time (around 10% between 2012 to 2022), while neutral scores decreased. Positive, however, remained stable over the analysed years. 
+
+It is interesting to notice the discrepancy between negative and positive sentiments in the news headlines. In this corpus, negative scores were assigned more frequently to headlines than positive and neutral. It is important to consider the dataset context, as the news analysed are a selection of what was tweeted by @BBCBreaking among the articles published by bbc.co.uk. 
+
 
 #### Time series
 
