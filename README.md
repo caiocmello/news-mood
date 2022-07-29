@@ -57,7 +57,7 @@ The first step to analyse the variation of sentiment over the years was applying
 
 ![](./img/sentiment_overtime.png)
 
-There is a slightly increase in negative sentiments over time (around 10% between 2012 to 2022), while neutral scores decreased. Positive, however, remained stable over the analysed years. 
+There is a slight increase in negative sentiments over time (around 10% between 2012 to 2022), while neutral scores decreased. Positive, however, remained stable over the analysed years. 
 
 It is interesting to notice the discrepancy between negative and positive sentiments in the news headlines. In this corpus, negative scores were assigned more frequently to headlines than positive and neutral. It is important to consider the dataset context, as the news analysed are a selection of what was tweeted by @BBCBreaking among the articles published by bbc.co.uk. 
 
