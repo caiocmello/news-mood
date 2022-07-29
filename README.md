@@ -164,7 +164,7 @@ require(ggplot2)
 ### Acknowledgement
 We would like to thank Jana Lasser for the valuable contributions and support provided during this project. 
 
-#### This project was developed during the SICSS-Aachen-Graz (July 18 to July 30, 2022).
+#### This project was developed during the SICSS-Aachen-Graz (July 18 to July 29, 2022).
 
 
 
