@@ -148,6 +148,19 @@ require(ggplot2)
 
 ### References
 
+- Brady, William; Wills, Julian; Jost, John; Tucker, Joshua, and Van Bavel, Jay (2017). ‘Emotion shapes the diffusion of moralized content in social networks'. Proceedings of the National Academy of Sciences, 114, 7313 - 7318.
+
+- Brady, William; Wills, Julian; Burkart, Dominic; Jost, John and Van Bavel, Jay (2019) 'An Ideological Asymmetry in the Diffusion of Moralized Content on Social Media Among Political Leaders'. Journal of Experimental Psychology. 148(10): 1802-1813. doi: 10.1037/xge0000532 
+
+- de León E and Trilling D (2021) 'A Sadness Bias in Political News Sharing? The Role of Discrete Emotions in the Engagement and Dissemination of Political News on Facebook'. Social Media + Society. October 2021. doi:10.1177/20563051211059710
+
+- Kraft, Patrick; Krupnikov, Yanna; Milita, Kerri; Ryan, John Barry and Soroka, Stuart (2020) 'Social Media and the Changing Information Environment: Sentiment Differences in Read Versus Recirculated News Content', Public Opinion Quarterly, Volume 84, Issue S1, 2020, Pages 195–215, https://doi.org/10.1093/poq/nfaa015
+
+- Soroka S, Young L, and Balmas M (2015) 'Bad News or Mad News? Sentiment Scoring of Negativity, Fear, and Anger in News Content'. The ANNALS of the American Academy of Political and Social Science. 2015;659(1):108-121. doi:10.1177/0002716215569217
+
+- Trussler M, and Soroka, S. (2014) 'Consumer Demand for Cynical and Negative News Frames'. The International Journal of Press/Politics. 2014;19(3):360-379. doi:10.1177/1940161214524832
+
+
 ### Acknowledgement
 We would like to thank Jana Lasser for the valuable contributions and support provided during this project. 
 
