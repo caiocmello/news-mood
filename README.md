@@ -99,7 +99,25 @@ While the coefficients in each model are small, their direction presents interes
 
 ### Emotion Analysis
 
+In an attempt to complexify the interpretation of the 'news mood', we have used NRCLex, an affect generator based on TextBlob and the NRC affect lexicon. The package measures the following emotional affects:
+
+-fear
+-anger
+-anticipation
+-trust
+-surprise
+-positive
+-negative
+-sadness
+-disgust
+-joy
+
+The result of Emotion Analysis applied to headlines by year can be visualised in the chart below (NOTE: the results are not normalised. The different amount of headlines for each year does not allow comparisons over the years): 
+
+
 ![](./img/emotions.png)
+
+What this classifier does it assign an emotion to each word in the corpus. This is not sentence level as the Sentiment Analysis applied before. It is interesting to highlight that 'sadness' appears among the top 5 emotions for every year in the corpus, except for 2022, when it became the 7th. Fear was always the second most common emotion. The use of emotion classification deserves further investigation to see how it could be more meaninful for this kind of analysis.
 
 ### Topic Modeling
 
@@ -111,10 +129,12 @@ Top twenty topics with their top three terms appear as follows in stm:
 
 ![](./img/2017_toptopics.jpeg)
 
-We also visualized the most frequent words in each year within the ``textplot_wordcloud()`` function of the quanteda package.
+We also visualized the most frequent words in each year within the `textplot_wordcloud()` function of the quanteda package.
 Most frequent 100 words appear as follows:
 
 ![](./img/2017_cloud.jpeg)
+
+Required packages: `readtext`, `stm`, `quanteda`, `quanteda.textstats`, `quanteda.textplots`, `quanteda.corpora`, `ggplot2`.
 
 Required packages:<br/>
 require(readtext)<br/>
@@ -128,7 +148,10 @@ require(ggplot2)
 
 ### References
 
+### Acknowledgement
+We would like to thank Jana Lasser for the valuable contributions and support provided during this project. 
 
+#### This project was developed during the SICSS-Aachen-Graz (July 18 to July 30, 2022).
 
 
 
