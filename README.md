@@ -157,6 +157,22 @@ Required packages: `readtext`, `stm`, `quanteda`, `quanteda.textstats`, `quanted
 
 - Trussler M, and Soroka, S. (2014) 'Consumer Demand for Cynical and Negative News Frames'. The International Journal of Press/Politics. 2014;19(3):360-379. doi:10.1177/1940161214524832
 
+#### Packages
+
+- [Twarc2](https://twarc-project.readthedocs.io/en/latest/twarc2_en_us/)
+- [Pandas](https://pandas.pydata.org/)
+- [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
+- [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- [NLTK](https://www.nltk.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [Statsmodels](https://www.statsmodels.org/stable/index.html)
+- [NRCLex](https://pypi.org/project/NRCLex/)
+- [BERTopic](https://maartengr.github.io/BERTopic/index.html)
+- [Quanteda](https://quanteda.io/)
+- [Wordcloud](https://amueller.github.io/word_cloud/)
+- [ggplot2](https://ggplot2.tidyverse.org/)
+- [Raw Graphs](https://www.rawgraphs.io/)
+
 
 ### Acknowledgement
 We would like to thank Jana Lasser for the valuable contributions and support provided during this project. 
