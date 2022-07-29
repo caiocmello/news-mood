@@ -42,7 +42,7 @@ The image below shows the dataset overview:
 
 ![](./img/dataset_overview.png)
 
-It is interesting to notice how the number of tweets published by @BBCBreaking reduced over the years. 
+It is interesting to notice how the number of tweets published by @BBCBreaking reduced over the years. NOTE: The year 2022 data goes only until July. 
 
 ## Data Analysis
 
