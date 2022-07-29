@@ -50,7 +50,6 @@ The data analysis aimed to answer the following questions:
 1. Has sentiment in news headlines become more negative over time?
 2. What are the yearly changes in sentiments?
 3. What are the most frequent topics and terms for each year?
-4. ?
 
 ### Sentiment Analysis
 
